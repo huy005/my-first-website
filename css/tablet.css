@@ -149,6 +149,14 @@ section > .container {
     height: 100%;
   }
 
+  .personal-info-icons-list {
+    list-style-type: none;
+  }
+
+  .personal-info-icons-list li {
+    display: inline-block;
+  }
+
   /* JOB */
   #job-info {
     margin: 20px 0;
@@ -412,6 +420,10 @@ section > .container {
     margin: 40px 0px;
   }
 
+  #project .container-project {
+    margin: 4rem 7rem;
+  }
+
   #project .section-title {
     margin: 50px -60px;
   }
@@ -441,7 +453,7 @@ section > .container {
   }
 
   .project-container-item {
-    width: 13rem;
+    width: 16rem;
     height: 450px;
     border: 1px solid #a5a5a5;
     display: inline-block;
@@ -474,6 +486,11 @@ section > .container {
     vertical-align: text-top;
     font-size: 0.5rem;
   }
+
+  table tr td:nth-child(1) {
+    width: 6rem;
+  }
+
   .project-container-item-second {
     display: flex;
     justify-content: left;

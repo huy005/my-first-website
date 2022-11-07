@@ -110,12 +110,12 @@ section > .container {
     padding: 60px 35px;
   }
 
-  #personal-info ul {
+  #personal-info .personal-info-info {
     list-style-type: none;
     color: #a5a5a5;
   }
 
-  #personal-info ul li {
+  #personal-info .personal-info-info li {
     margin-bottom: 10px;
   }
 
@@ -125,6 +125,14 @@ section > .container {
 
   .personal-info-icons {
     margin-top: 40px;
+  }
+
+  .personal-info-icons-list {
+    list-style-type: none;
+  }
+
+  .personal-info-icons-list li {
+    display: inline-block;
   }
 
   /* JOB */
@@ -337,10 +345,6 @@ section > .container {
     border: none;
   }
 
-  /* .certificate-container-item .beforeline img {
-    margin-left: 12px;
-  } */
-
   .certificate-container-item-content {
     font-size: 0.5rem;
     margin-left: 10px;
@@ -410,6 +414,11 @@ section > .container {
     padding: 6px;
     font-size: 15px;
   }
+
+  table tr td:nth-child(1) {
+    width: 6rem;
+  }
+
   .project-container-item-second {
     display: flex;
     justify-content: center;
