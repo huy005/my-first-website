@@ -31,14 +31,14 @@ let viewContentBtnKinhNghiem = document.getElementById("viewMoreBtnKinhNghiem");
 // View More KINH NGHIEM
 function viewMoreKinhNghiem() {
   if (flagKinhNghiem) {
-    viewContentBtnKinhNghiem.innerHTML = `<i class="fa-solid fa-caret-up" style="margin-right: 5px;"></i>VIEW LESS`;
+    viewContentBtnKinhNghiem.innerHTML = `<i class="fa-solid fa-caret-up" style="margin-right: 5px;"></i>非表示`;
     document.querySelector(".conitem-kinhNghiem").style.height = "575px";
     document
       .querySelector(".hidden-content-kinhNghiem")
       .classList.remove("hidden");
     flagKinhNghiem = false;
   } else if (!flagKinhNghiem) {
-    viewContentBtnKinhNghiem.innerHTML = `<i class="fa-solid fa-caret-down" style="margin-right: 5px;"></i>VIEW MORE`;
+    viewContentBtnKinhNghiem.innerHTML = `<i class="fa-solid fa-caret-down" style="margin-right: 5px;"></i>表示`;
     document.querySelector(".conitem-kinhNghiem").style.height = "140px";
     document
       .querySelector(".hidden-content-kinhNghiem")
@@ -53,12 +53,12 @@ let viewContentBtnKyNang = document.getElementById("viewMoreBtnKyNang");
 // View More Ky Nang
 function viewMoreKyNang() {
   if (flagKyNang) {
-    viewContentBtnKyNang.innerHTML = `<i class="fa-solid fa-caret-up" style="margin-right: 5px;"></i>VIEW LESS`;
+    viewContentBtnKyNang.innerHTML = `<i class="fa-solid fa-caret-up" style="margin-right: 5px;"></i>非表示`;
     document.querySelector(".conitem-kyNang").style.height = "575px";
     document.querySelector(".hidden-content-kyNang").classList.remove("hidden");
     flagKyNang = false;
   } else if (!flagKyNang) {
-    viewContentBtnKyNang.innerHTML = `<i class="fa-solid fa-caret-down" style="margin-right: 5px;"></i>VIEW MORE`;
+    viewContentBtnKyNang.innerHTML = `<i class="fa-solid fa-caret-down" style="margin-right: 5px;"></i>表示`;
     document.querySelector(".conitem-kyNang").style.height = "140px";
     document.querySelector(".hidden-content-kyNang").classList.add("hidden");
     flagKyNang = true;
@@ -71,14 +71,14 @@ let viewContentBtnNgonNgu = document.getElementById("viewMoreBtnNgonNgu");
 // View More Ky Nang
 function viewMoreNgonNgu() {
   if (flagNgonNgu) {
-    viewContentBtnNgonNgu.innerHTML = `<i class="fa-solid fa-caret-up" style="margin-right: 5px;"></i>VIEW LESS`;
+    viewContentBtnNgonNgu.innerHTML = `<i class="fa-solid fa-caret-up" style="margin-right: 5px;"></i>非表示`;
     document.querySelector(".conitem-ngonNgu").style.height = "575px";
     document
       .querySelector(".hidden-content-ngonNgu")
       .classList.remove("hidden");
     flagNgonNgu = false;
   } else if (!flagNgonNgu) {
-    viewContentBtnNgonNgu.innerHTML = `<i class="fa-solid fa-caret-down" style="margin-right: 5px;"></i>VIEW MORE`;
+    viewContentBtnNgonNgu.innerHTML = `<i class="fa-solid fa-caret-down" style="margin-right: 5px;"></i>表示`;
     document.querySelector(".conitem-ngonNgu").style.height = "140px";
     document.querySelector(".hidden-content-ngonNgu").classList.add("hidden");
     flagNgonNgu = true;
@@ -91,14 +91,14 @@ let viewContentBtnHoatDongMd = document.getElementById("viewMoreBtnHoatDongMd");
 // View More Ky Nang
 function viewMoreHoatDongMd() {
   if (flagHoatDongMd) {
-    viewContentBtnHoatDongMd.innerHTML = `<i class="fa-solid fa-caret-up" style="margin-right: 5px;"></i>VIEW LESS`;
+    viewContentBtnHoatDongMd.innerHTML = `<i class="fa-solid fa-caret-up" style="margin-right: 5px;"></i>非表示`;
     document.querySelector(".conitem-hoatDongMd").style.height = "575px";
     document
       .querySelector(".hidden-content-hoatDongMd")
       .classList.remove("hidden");
     flagHoatDongMd = false;
   } else if (!flagHoatDongMd) {
-    viewContentBtnHoatDongMd.innerHTML = `<i class="fa-solid fa-caret-down" style="margin-right: 5px;"></i>VIEW MORE`;
+    viewContentBtnHoatDongMd.innerHTML = `<i class="fa-solid fa-caret-down" style="margin-right: 5px;"></i>表示`;
     document.querySelector(".conitem-hoatDongMd").style.height = "140px";
     document
       .querySelector(".hidden-content-hoatDongMd")
@@ -113,14 +113,14 @@ let viewContentBtnHoatDong = document.getElementById("viewMoreBtnHoatDong");
 // View More Ky Nang
 function viewMoreHoatDong() {
   if (flagHoatDong) {
-    viewContentBtnHoatDong.innerHTML = `<i class="fa-solid fa-caret-up" style="margin-right: 5px;"></i>VIEW LESS`;
+    viewContentBtnHoatDong.innerHTML = `<i class="fa-solid fa-caret-up" style="margin-right: 5px;"></i>非表示`;
     document.querySelector(".conitem-hoatDong").style.height = "575px";
     document
       .querySelector(".hidden-content-hoatDong")
       .classList.remove("hidden");
     flagHoatDong = false;
   } else if (!flagHoatDong) {
-    viewContentBtnHoatDong.innerHTML = `<i class="fa-solid fa-caret-down" style="margin-right: 5px;"></i>VIEW MORE`;
+    viewContentBtnHoatDong.innerHTML = `<i class="fa-solid fa-caret-down" style="margin-right: 5px;"></i>表示`;
     document.querySelector(".conitem-hoatDong").style.height = "140px";
     document.querySelector(".hidden-content-hoatDong").classList.add("hidden");
     flagHoatDong = true;
@@ -133,12 +133,12 @@ let viewContentBtnHocVan = document.getElementById("viewMoreBtnHocVan");
 // View More Ky Nang
 function viewMoreHocVan() {
   if (flagHocVan) {
-    viewContentBtnHocVan.innerHTML = `<i class="fa-solid fa-caret-up" style="margin-right: 5px;"></i>VIEW LESS`;
+    viewContentBtnHocVan.innerHTML = `<i class="fa-solid fa-caret-up" style="margin-right: 5px;"></i>非表示`;
     document.querySelector(".conitem-hocVan").style.height = "575px";
     document.querySelector(".hidden-content-hocVan").classList.remove("hidden");
     flagHocVan = false;
   } else if (!flagHocVan) {
-    viewContentBtnHocVan.innerHTML = `<i class="fa-solid fa-caret-down" style="margin-right: 5px;"></i>VIEW MORE`;
+    viewContentBtnHocVan.innerHTML = `<i class="fa-solid fa-caret-down" style="margin-right: 5px;"></i>表示`;
     document.querySelector(".conitem-hocVan").style.height = "140px";
     document.querySelector(".hidden-content-hocVan").classList.add("hidden");
     flagHocVan = true;
@@ -151,14 +151,14 @@ let viewContentBtnSoThich = document.getElementById("viewMoreBtnSoThich");
 // View More Ky Nang
 function viewMoreSoThich() {
   if (flagSoThich) {
-    viewContentBtnHocVan.innerHTML = `<i class="fa-solid fa-caret-up" style="margin-right: 5px;"></i>VIEW LESS`;
+    viewContentBtnSoThich.innerHTML = `<i class="fa-solid fa-caret-up" style="margin-right: 5px;"></i>非表示`;
     document.querySelector(".conitem-soThich").style.height = "575px";
     document
       .querySelector(".hidden-content-soThich")
       .classList.remove("hidden");
     flagSoThich = false;
   } else if (!flagSoThich) {
-    viewContentBtnHocVan.innerHTML = `<i class="fa-solid fa-caret-down" style="margin-right: 5px;"></i>VIEW MORE`;
+    viewContentBtnSoThich.innerHTML = `<i class="fa-solid fa-caret-down" style="margin-right: 5px;"></i>表示`;
     document.querySelector(".conitem-soThich").style.height = "140px";
     document.querySelector(".hidden-content-soThich").classList.add("hidden");
     flagSoThich = true;
