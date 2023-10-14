@@ -18,7 +18,7 @@ document.querySelector(".submitBtn").addEventListener("click", function () {
     console.log(mainContent);
   } else {
     const error = document.getElementById("error");
-    error.innerHTML = "Empty or Wrong Regex!!!";
+    error.innerHTML = "メール書式が正しくない！！！";
     error.style.fontSize = "1rem";
     error.style.marginTop = "1rem";
   }
