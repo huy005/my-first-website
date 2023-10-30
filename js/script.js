@@ -4,7 +4,11 @@ document.querySelector(".submitBtn").addEventListener("click", function () {
   let emailValue = document.querySelector(".emailInput").value;
   const regex =
     /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-  if (emailValue?.trim() !== "" && regex.test(emailValue)) {
+  if (
+    emailValue?.trim() !== "" &&
+    regex.test(emailValue) &&
+    emailValue === "huybq8899@gmail.com"
+  ) {
     document.querySelector(".mainForm").classList.add("hidden");
     document.querySelector(".mainContentInfo").classList.remove("hidden");
     document.getElementById("validName").style.color = "#a5a5a5";
@@ -13,8 +17,8 @@ document.querySelector(".submitBtn").addEventListener("click", function () {
     document.getElementById("validEmail").style.color = "#a5a5a5";
     document.getElementById("validAddress").style.color = "#a5a5a5";
     document.getElementById("validWebsite").style.color = "#a5a5a5";
-    const mainContent = (document.getElementById("validEmail").innerHTML =
-      emailValue);
+    // const mainContent = (document.getElementById("validEmail").innerHTML =
+    //   emailValue);
     console.log(mainContent);
   } else {
     const error = document.getElementById("error");
