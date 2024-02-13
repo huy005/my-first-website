@@ -416,7 +416,7 @@ section > .container {
   }
 
   .row-project {
-    width: 55rem;
+    width: 78rem;
     margin-right: 0px;
     margin-left: 3.6rem;
   }
@@ -472,12 +472,16 @@ section > .container {
     border: 1 solid #189cdb;
     background-color: #189cdb;
     height: 20px;
-    width: 45px;
+    width: 54px;
     text-align: center;
     border-radius: 9px;
     color: white;
     font-size: 10px;
     padding-top: 5px;
+  }
+
+  .project-container-item-second p {
+    font-size: 0.7rem;
   }
 
   /* FOOTER */
